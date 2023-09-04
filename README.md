@@ -1,3 +1,3 @@
 # corne-wireless-view-zmk-config
 
-Setup for my corne ergo split keyboard
+Setup for my corne ergo split keyboard...
