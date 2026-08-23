@@ -9,6 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+        behaviors {
+            td_tab_esc: tap_dance_tab_esc {
+                compatible = "zmk,behavior-tap-dance";
+                #binding-cells = <0>;
+                tapping-term-ms = <200>;
+                bindings = <&kp TAB>, <&kp ESC>;
+            };
+        };
         keymap {
                 compatible = "zmk,keymap";
 
